@@ -30,7 +30,7 @@ public class Extraction {
         evenOdd(arr, i+1, even, odd, eIdx, oIdx);
     }
     public static void main (String [] args){
-        int [] arr = {1,2,3,4,5,6,7,8,9,10,11,13,14};
+        int [] arr = {1,2,3,4,5,6,7,8,9,10,11,13,14,15};
         int [] even = new int[arr.length];
         int [] odd = new int[arr.length];
         evenOdd(arr,0,even,odd,0,0);
